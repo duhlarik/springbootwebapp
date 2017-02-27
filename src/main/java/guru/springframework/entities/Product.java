@@ -16,6 +16,10 @@ public class Product {
     private String imageUrl;
     private BigDecimal price;
 
+    public Integer getId() {
+        return id;
+    }
+
     public String getDescription() {
         return description;
     }
